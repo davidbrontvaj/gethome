@@ -24,7 +24,7 @@
 						<label for="email" class="col-md-4 control-label">E-Mail Address</label>
 
 							<div class="col-md-6">
-								<input class="form-control" type="email" name="e-mail" value="{{ old('email') }} "> <br>
+								<input class="form-control" type="email" name="email" value="{{ old('email') }} "> <br>
 							</div>
 					</div>
 

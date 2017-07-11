@@ -9,7 +9,7 @@ use App\Http\Controllers\Controller;
 //Validator facade used in validator method
 use Illuminate\Support\Facades\Validator;
 
-//Seller Model
+//Admin Model
 use App\Admin;
 
 //Auth Facade used in guard

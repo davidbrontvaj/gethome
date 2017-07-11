@@ -9,6 +9,10 @@ use App\Http\Controllers\Controller;
 use Illuminate\Foundation\Auth\AuthenticatesUsers;
 
 
+//Auth facade
+use Auth;
+
+
 class LoginController extends Controller
 {
 
