@@ -31,7 +31,7 @@ Route::get('/home', 'HomeController@index')->name('home');
 Route::get('/admin/dashboard', function () {
     return view('admin.dashboard');
 });
-
+	
 // Admin login
 
 Route::post('admin_logout', 'AdminAuth\LoginController@logout');
