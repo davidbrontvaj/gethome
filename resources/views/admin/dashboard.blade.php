@@ -9,6 +9,12 @@
 
                 <div class="panel-body">
                     Hi you are in Admin dashboard! Huray!
+                    Vitaj 
+                   @if (Auth::guard('web_admin')->user()->name)
+                            {{Auth::guard('web_admin')->user()->name}}
+                    @else
+                            <li>Nie si prihlásený</li>
+                    @endif
                 </div>
             </div>
         </div>

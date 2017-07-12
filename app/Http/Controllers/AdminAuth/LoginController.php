@@ -17,12 +17,11 @@ class LoginController extends Controller
 {
 
 	 //Where to redirect seller after login.
-    protected $redirectTo = '/admin/dashboard';
-
 
     //Trait
     use AuthenticatesUsers;
-
+    
+    protected $redirectTo = '/admin/dashboard';
 
 	//Custom guard for seller
     protected function guard()
@@ -36,5 +35,4 @@ class LoginController extends Controller
    {
        return view('admin.login');
    }
-
 }
