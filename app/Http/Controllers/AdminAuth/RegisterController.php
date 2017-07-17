@@ -20,7 +20,11 @@ class RegisterController extends Controller
 {
 
 	 protected $redirectPath = 'admin/dashboard';
-
+   
+  public function __construct()
+    {
+      $this->middleware('admin_auth');
+    }
      //shows registration form to seller
   public function showRegistrationForm()
   {
