@@ -44,12 +44,6 @@ Route::get('admin/administrators/create', 'AdminAuth\RegisterController@showRegi
 Route::post('admin/administrators/create', 'AdminAuth\RegisterController@register');
 
 
-//Admin RealtyRegistration - new Realty
-Route::get('admin/AddRealty','RealtiesController\AdminRealtiesController@showAddForm');
-Route::post('admin/AddRealty','RealtiesController\AdminRealtiesController@addNewRealty');
-
-
-
 
 // Admin & users Middlewares
 // /*******/
