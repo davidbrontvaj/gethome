@@ -50,6 +50,7 @@ Route::post('admin/AddRealty','RealtiesController\AdminRealtiesController@addNew
 
 
 
+
 // Admin & users Middlewares
 // /*******/
 
